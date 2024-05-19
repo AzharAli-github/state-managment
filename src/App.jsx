@@ -5,7 +5,7 @@ import { useReducer } from "react";
 // import { ReducerHook } from "./components/ReducerHook";
 import { HookReducer } from "./components/HookReducer";
 import { UserForm } from "./components/UserForm";
-// import { MemoHook } from "./components/MemoHook";
+import { MemoHook } from "./components/MemoHook";
 // import { EffectHook } from "./components/EffectHook";
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
       <h1>useReducer Examples:</h1>
       <HookReducer />
       <UserForm />
-      {/* <h1>useMemo Examples:</h1>
+      <h1>useMemo Examples:</h1>
       <MemoHook />
-      <h1>useEffect Examples:</h1>
+      {/* <h1>useEffect Examples:</h1>
       <EffectHook /> */}
     </>
   );
